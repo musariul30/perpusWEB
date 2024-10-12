@@ -1,0 +1,164 @@
+/* assets/css/style.css */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #008080;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: #004d4d;
+    overflow: hidden;
+}
+
+.navbar a {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #00a5a5; /* Lebih terang saat dihover */
+}
+
+.container {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    border-radius: 8px; /* Berikan border radius untuk tampilan yang lebih halus */
+}
+
+.form-container input[type=text],
+.form-container input[type=password],
+.form-container input[type=email],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 4px; /* Berikan sedikit border radius */
+}
+
+.form-container button {
+    background-color: #008080;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    border-radius: 4px; /* Border radius untuk tombol */
+}
+
+.form-container button:hover {
+    background-color: #00a5a5; /* Warna tombol saat dihover */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table th {
+    background-color: #008080 !important;
+    color: white;
+    text-align: left;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e0f7e0; /* Background hijau muda saat dihover */
+}
+
+.pagination{
+    padding-top: 30px !important;
+}
+.pagination a {
+    color: #008080;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #00a5a5;
+    color: white;
+}
+
+.pagination a.active {
+    background-color: #008080;
+    color: white;
+}
+.main-banner {
+    padding-top: 100px !important;
+}
+a {
+    text-decoration: none;
+}
+#judul{
+    padding-top: 100px !important;
+    background-image: url('../img/bg.jpg'); /* Replace with the path to your background image */
+    background-size: cover; /* Ensures the image covers the entire banner area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Optional: To ensure text is visible on top of the background image */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Adds shadow to the text for better readability */
+}
+
+#judul h1, #judul p {
+    color: #fff !important; /* Changes the text color to white */
+}
+/* Custom Teal Button */
+.btn-teal {
+    background-color: #008080 !important;  /* Teal color */
+    color: white;
+    border: none;  /* Removes the border */
+    padding: 12px 20px;  /* Adjusts padding for a comfortable button size */
+    font-size: 16px;  /* Optional: Increases the font size for better readability */
+    border-radius: 5px;  /* Optional: Gives the button smooth, rounded corners */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+.btn-teal:hover {
+    background-color: #00a5a5 !important;  /* Lighter teal on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow on hover */
+}
